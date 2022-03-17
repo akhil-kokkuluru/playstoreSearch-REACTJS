@@ -1,0 +1,63 @@
+.textdisplay {
+  font-family: Roboto;
+  font-size: 25px;
+  text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+  .textdisplay {
+    font-size: 18px;
+  }
+}
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.buttons {
+  color: #7b8794;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: Roboto;
+  border-bottom: 2px;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-weight: 500;
+  border-bottom: 5px solid #dfe2e5;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .buttons {
+    font-size: 14px;
+  }
+}
+.buttonsBlue {
+  color: #2563eb;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: Roboto;
+  border-bottom: 2px;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-weight: 500;
+  border-bottom: 5px solid #2563eb;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .buttonsBlue {
+    font-size: 14px;
+  }
+}
